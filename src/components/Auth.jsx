@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Cookies from 'universal-cookie';
 import axios from 'axios';
 
-import signinImage from '../assets/signup.jpg';
+import signinImage from '../assets/bannerBG.jpg';
+import signinImage_2 from '../assets/banner_hand.png';
 
 const cookies = new Cookies();
 
@@ -146,6 +147,9 @@ const Auth = () => {
             </div>
             <div className="auth__form-container_image">
                 <img src={signinImage} alt="sign in" />
+            </div>
+            <div className="auth__form-container_image_2">
+                <img src={signinImage_2} alt="sign in" />
             </div>
         </div>
     )
